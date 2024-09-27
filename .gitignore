@@ -1928,3 +1928,5 @@ node_modules/yaml/dist/stringify/stringifyPair.d.ts
 node_modules/yaml/dist/stringify/stringifyPair.js
 node_modules/yaml/dist/stringify/stringifyString.d.ts
 node_modules/yaml/dist/stringify/stringifyString.js
+node_modules/.DS_Store
+.DS_Store
