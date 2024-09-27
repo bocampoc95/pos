@@ -8,7 +8,7 @@
 </head>
 <body class="font-base">
     <div class="flex">
-        <nav class="sidebar border border-gray-200 h-screen w-40">
+        <nav class="hidden md:block sidebar border border-gray-200 h-screen w-40">
             <figure
                 class="px-4 py-8"
                 >
@@ -63,48 +63,109 @@
                 </div>
             </nav>
             <!-- topbar -->
-            <div class="content h-full p-4 bg-gray-100">
-                <div class="flex gap-2 mb-2">
-                    <div class="flex-auto">
-                        <div class="flex flex-col gap-8 rounded-sm text-white bg-gradient-to-r from-[#4C49ED] to-[#0A06F4]">
-                            <div class="flex justify-between px-8 py-4">
-                                <div>
-                                    <div class="text-xs">Balance</div>
-                                    5,756
+            <div class="content p-4 bg-gray-100">
+                <div class="flex flex-col md:flex-row items-stretch gap-2 mb-10">
+                    <div class="flex gap-2">
+                        <div class="flex-auto">
+                            <div class="text-white bg-gradient-to-r from-[#4C49ED] to-[#0A06F4] rounded-3xl overflow-x-hidden border-2">
+                                <div class="flex flex-col gap-8 rounded-lg ">
+                                <div class="flex justify-between px-8 py-4">
+                                    <div>
+                                        <div class="text-xs">Balance</div>
+                                        5,756
+                                    </div>
+                                    <div>
+                                        Icon
+                                    </div>
                                 </div>
-                                <div>
-                                    Icon
+                                <!-- Balance -->
+                                <div class="flex justify-between px-8 py-4">
+                                    <div>
+                                        <div class="text-xs text-gray-400">CARD HOLDER</div>
+                                        Eddy Cusuma
+                                    </div>
+                                    <div>
+                                        <div class="text-xs text-gray-400">VALID THRU</div>
+                                        12/22
+                                    </div>
                                 </div>
+                                <!-- Owner -->
+                                <div class="flex justify-between bg-gradient-to-b from-white-200 to-transparent px-8 py-4">
+                                    <div class="text-lg">
+                                        3778 **** **** 1234
+                                    </div>
+                                    <div>
+                                        MasterCard
+                                    </div>
+                                </div>
+                                <!-- Number -->
                             </div>
-                            <!-- Balance -->
-                            <div class="flex justify-between px-8 py-4">
-                                <div>
-                                    <div class="text-xs text-gray-400">CARD HOLDER</div>
-                                    Eddy Cusuma
-                                </div>
-                                <div>
-                                    <div class="text-xs text-gray-400">VALID THRU</div>
-                                    12/22
-                                </div>
                             </div>
-                            <!-- Owner -->
-                            <div class="flex justify-between bg-gradient-to-b from-white-200 to-transparent px-8 py-4">
-                                <div class="text-lg">
-                                    3778 **** **** 1234
-                                </div>
-                                <div>
-                                    MasterCard
-                                </div>
-                            </div>
-                            <!-- Number -->
                         </div>
+                        <!-- Card -->
+                        <div class="flex-auto">
+                            <div class="bg-white rounded-3xl overflow-x-hidden border-2 border-gray-300">
+                                <div class="flex flex-col gap-8 rounded-lg ">
+                                <div class="flex justify-between px-8 py-4">
+                                    <div>
+                                        <div class="text-xs">Balance</div>
+                                        5,756
+                                    </div>
+                                    <div>
+                                        Icon
+                                    </div>
+                                </div>
+                                <!-- Balance -->
+                                <div class="flex justify-between px-8 py-4">
+                                    <div>
+                                        <div class="text-xs text-gray-400">CARD HOLDER</div>
+                                        Eddy Cusuma
+                                    </div>
+                                    <div>
+                                        <div class="text-xs text-gray-400">VALID THRU</div>
+                                        12/22
+                                    </div>
+                                </div>
+                                <!-- Owner -->
+                                <div class="flex justify-between bg-gradient-to-b from-white-200 to-transparent px-8 py-4 ">
+                                    <div class="text-lg">
+                                        3778 **** **** 1234
+                                    </div>
+                                    <div>
+                                        MasterCard
+                                    </div>
+                                </div>
+                                <!-- Number -->
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Card 2 -->
                     </div>
-                    <!-- Card -->
-                    <div class="border border-blue-400 flex-auto"></div>
-                    <div class="border border-blue-400 flex-auto"></div>
+                    <!-- Cards -->
+                    <div class="flex-auto bg-white p-4 rounded-2xl">
+                        <h3>Transactions</h3>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel excepturi iusto nihil odit aperiam, id sit
+                    </div>
+                    <!-- Transactions -->
                 </div>
-                <div class="border bg-red-400 h-[500px]"></div>
-                <div class="border bg-green-400 h-24"></div>
+                <!-- First container -->
+                <div class="flex flex-col md:flex-row gap-4 items-stretch mb-10">
+                    <div class="flex-auto bg-white rounded-2xl p-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem quasi reprehenderit! Culpa quo nobis ab expedita, accusamus, voluptatem mollitia, nulla impedit eos iste libero vel obcaecati labore reprehenderit ullam!
+                    </div>
+                    <div class="flex-auto md:w-2/5 bg-white rounded-2xl p-4">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat quo adipisci commodi saepe animi mollitia omnis unde dolorem
+                    </div>
+                </div>
+                <!-- Second container -->
+                <div class="flex flex-col md:flex-row gap-4 items-stretch">
+                    <div class="flex-auto md:w-1/2 bg-white rounded-2xl p-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem quasi reprehenderit! Culpa quo nobis ab expedita, accusamus, voluptatem mollitia, nulla impedit eos iste libero vel obcaecati labore reprehenderit ullam!
+                    </div>
+                    <div class="flex-auto md:w-1/2 bg-white rounded-2xl p-4">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat quo adipisci commodi saepe animi mollitia omnis unde dolorem
+                    </div>
+                </div>
             </div>
         </main>
         <!-- content -->
